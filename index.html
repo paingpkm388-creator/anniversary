@@ -3,105 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Anniversary</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <title>Do You Love Me?</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="petals" aria-hidden="true"></div>
+  <div class="hearts" aria-hidden="true">
+    <span class="heart" style="--left: 4%; --size: 22px; --duration: 8s; --delay: 0s; --drift: 34px;">&hearts;</span>
+    <span class="heart" style="--left: 13%; --size: 16px; --duration: 10s; --delay: 1.3s; --drift: -22px;">&hearts;</span>
+    <span class="heart" style="--left: 22%; --size: 28px; --duration: 9s; --delay: 2.1s; --drift: 42px;">&hearts;</span>
+    <span class="heart" style="--left: 32%; --size: 18px; --duration: 11s; --delay: 0.7s; --drift: -38px;">&hearts;</span>
+    <span class="heart" style="--left: 43%; --size: 24px; --duration: 8.5s; --delay: 1.8s; --drift: 28px;">&hearts;</span>
+    <span class="heart" style="--left: 54%; --size: 17px; --duration: 10.5s; --delay: 2.9s; --drift: -34px;">&hearts;</span>
+    <span class="heart" style="--left: 65%; --size: 30px; --duration: 9.5s; --delay: 0.4s; --drift: 46px;">&hearts;</span>
+    <span class="heart" style="--left: 76%; --size: 19px; --duration: 12s; --delay: 1.5s; --drift: -28px;">&hearts;</span>
+    <span class="heart" style="--left: 86%; --size: 26px; --duration: 8.8s; --delay: 2.5s; --drift: 24px;">&hearts;</span>
+    <span class="heart" style="--left: 94%; --size: 15px; --duration: 10.8s; --delay: 0.9s; --drift: -40px;">&hearts;</span>
+  </div>
 
-  <header class="hero">
-    <nav class="nav">
-      <a href="#home" class="brand">Our Anniversary</a>
-      <div class="nav-links">
-        <a href="#story">Story</a>
-        <a href="#memories">Memories</a>
-        <a href="#letter">Letter</a>
-      </div>
-    </nav>
+  <main class="page">
+    <img class="cute-gif" id="cuteGif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW53bGRoNzh5NG1ucXppNmpzYTFyanFkdWMyOG1jc29rdnlxdDVyeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XYEEvoX0Ub69ZgN9ai/giphy.gif" alt="Cute animation">
+    <h1>Do you love me?</h1>
+    <p class="message" id="message">Please choose carefully.</p>
 
-    <section class="hero-content" id="home">
-      <p class="small-title">For my favorite person</p>
-      <h1>Happy Anniversary, My Love</h1>
-      <p class="hero-copy">
-        Every moment with you feels like a beautiful page in the story I never want to stop reading.
-      </p>
-      <div class="hero-actions">
-        <a href="#letter" class="button primary">Read My Letter</a>
-        <button class="button secondary" id="musicButton" type="button">Open About You</button>
-      </div>
-    </section>
-  </header>
-
-  <main>
-    <section class="countdown-section">
-      <p class="section-label">Counting every moment</p>
-      <h2>Love You So Much</h2>
-      <div class="timer" id="timer">
-        <div><strong id="days">0</strong><span>Days</span></div>
-        <div><strong id="hours">0</strong><span>Hours</span></div>
-        <div><strong id="minutes">0</strong><span>Minutes</span></div>
-        <div><strong id="seconds">0</strong><span>Seconds</span></div>
-      </div>
-    </section>
-
-    <section class="story" id="story">
-      <div>
-        <p class="section-label">Our little universe</p>
-        <h2>The day you became my home</h2>
-      </div>
-      <p>
-        I still remember how your smile changed ordinary days into memories. Thank you for being my peace,
-        my happiness, and the sweetest part of my life.
-      </p>
-    </section>
-
-    <section class="memories" id="memories">
-      <p class="section-label">Favorite memories</p>
-      <h2>Photos I will place here</h2>
-      <div class="gallery">
-        <article class="photo-card">
-          <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=85" alt="Romantic couple holding each other" data-fallback="1">
-          <h3>Our First Smile</h3>
-          <p>The moment that still makes my heart feel soft.</p>
-        </article>
-        <article class="photo-card">
-          <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=85" alt="Couple enjoying a beautiful day together" data-fallback="2">
-          <h3>Best Day</h3>
-          <p>A day I would choose again and again.</p>
-        </article>
-        <article class="photo-card">
-          <img src="https://images.unsplash.com/photo-1501901609772-df0848060b33?auto=format&fit=crop&w=900&q=85" alt="Romantic couple anniversary moment" data-fallback="3">
-          <h3>Forever Us</h3>
-          <p>My favorite place is still beside you.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="letter" id="letter">
-      <p class="section-label">A letter for you</p>
-      <h2>My promise</h2>
-      <div class="letter-paper">
-        <p>My love,</p>
-        <p>
-          Happy anniversary. I do not need a perfect world when I have your hand in mine.
-          You make life warmer, kinder, and more beautiful than I ever imagined.
-        </p>
-        <p>
-          I promise to keep choosing you, protecting your smile, listening to your heart,
-          and loving you in every season we meet together.
-        </p>
-        <p class="signature">Always yours</p>
-      </div>
-    </section>
+    <div class="actions">
+      <button class="yes" id="yesBtn" type="button">Yes</button>
+      <button class="no" id="noBtn" type="button">No</button>
+    </div>
   </main>
 
-  <footer>
-    <p>Made with love for the one who owns my heart.</p>
-  </footer>
+  <section class="celebration" id="celebration" aria-live="polite">
+    <div class="cheers" aria-hidden="true">
+      <span style="--left: 6%; --delay: 0s; --duration: 2.7s;">&hearts;</span>
+      <span style="--left: 16%; --delay: 0.3s; --duration: 2.4s;">*</span>
+      <span style="--left: 28%; --delay: 0.1s; --duration: 2.8s;">&hearts;</span>
+      <span style="--left: 42%; --delay: 0.5s; --duration: 2.5s;">*</span>
+      <span style="--left: 55%; --delay: 0.2s; --duration: 3s;">&hearts;</span>
+      <span style="--left: 68%; --delay: 0.6s; --duration: 2.6s;">*</span>
+      <span style="--left: 80%; --delay: 0.15s; --duration: 2.9s;">&hearts;</span>
+      <span style="--left: 92%; --delay: 0.45s; --duration: 2.5s;">*</span>
+    </div>
 
-  <script src="script.js"></script>
+    <img class="final-gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW53bGRoNzh5NG1ucXppNmpzYTFyanFkdWMyOG1jc29rdnlxdDVyeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WsRwFFRikFeAMriR15/giphy.gif" alt="Happy cute animation">
+    <h2>I knew it! Love you too!</h2>
+  </section>
+
+  <script src="style.js"></script>
 </body>
 </html>
