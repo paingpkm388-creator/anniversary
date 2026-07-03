@@ -17,11 +17,11 @@ const noTexts = [
 const noGifs = [
   "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3c2lvYXRnamtkOHc3M2pjMmplYTlxcGNjc3lqOG9ibXVjY3BkZmFvMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QbQeDAEspJ5oCeGWJk/giphy.gif",
   "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NG4yNjJ4NG5pYnF2NzU4Z3ppYjFvdGZyNG05aXZsc3Q3amxkampzcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KGfcnXIF8qHCThNb98/giphy.gif",
-  "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW53bGRoNzh5NG1ucXppNmpzYTFyanFkdWMyOG1jc29rdnlxdDVyeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XYEEvoX0Ub69ZgN9ai/giphy.gif",
+  "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHBkZW15bmhrYmFwMjFrdW92NmtrZjVoM2cyazB5d244bnJwaTZxNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ruyS8Zw9sBqE5UjOnY/giphy.gif",
   "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW53bGRoNzh5NG1ucXppNmpzYTFyanFkdWMyOG1jc29rdnlxdDVyeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SEgSwox3DSlx7QH4xQ/giphy.gif",
   "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW53bGRoNzh5NG1ucXppNmpzYTFyanFkdWMyOG1jc29rdnlxdDVyeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gKHGnB1ml0moQdjhEJ/giphy.gif",
   "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3c2lvYXRnamtkOHc3M2pjMmplYTlxcGNjc3lqOG9ibXVjY3BkZmFvMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Y0G6gc8CJu1ynAZ1nr/giphy.gif",
-  "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3c2lvYXRnamtkOHc3M2pjMmplYTlxcGNjc3lqOG9ibXVjY3BkZmFvMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/nR4L10XlJcSeQ/giphy.gif"
+  "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHBkZW15bmhrYmFwMjFrdW92NmtrZjVoM2cyazB5d244bnJwaTZxNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Lz6971fkGSgCMOOncl/giphy.gif"
 ];
 
 let noCount = 0;
